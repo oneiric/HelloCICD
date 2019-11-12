@@ -24,4 +24,16 @@ jobs:
       run: make
     - name: test
       run: make test
+      
+  Windows:
+    name: Run on Windows
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: make
+      run: make
+    - name: test
+      run: make test
+      
 
