@@ -6,7 +6,7 @@ hello: hello.o
 hello.o: hello.cpp
 	 g++ -c hello.cpp
 	 
-test: 
+test: hello
 	./hello
      
 clean:
