@@ -1,5 +1,3 @@
-all: hello
-
 hello: hello.o
 	 g++ -o hello hello.o
 
